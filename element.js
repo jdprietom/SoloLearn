@@ -1,4 +1,4 @@
-class Element{
+export class Element{
     constructor(tag){
         let element = document.createElement(tag)
         this.getElement = () => element
